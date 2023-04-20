@@ -1,0 +1,93 @@
+body{
+    font-family: "Roboto",sans-serif;
+  
+}
+
+/*start navbar*/
+.navbar{
+    background-color: #1b745e;
+    opacity: 0.7;
+    font-family: "Roboto",sans-serif;
+    height: 57px;
+}
+.navbar .nav-link{
+    letter-spacing: 3px;
+    
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1b745e !important;
+    background-color: #fff !important;
+    
+}
+
+/* start home */
+.container{
+    color: #1b745e;
+}
+.intro
+{
+    background: url('../img/2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 660px;
+}
+.intro h1{
+    padding-top: 9%;
+   
+}
+.home h1{
+    font-weight:bold ;
+    letter-spacing: 2px;
+}
+.home .sign{
+    width: 180px;
+}
+/* services */
+.services{
+    background-color: #eae8eb2e ;
+}
+.services h4{
+    font-size: 30px;
+    word-spacing: 3px;
+   
+    
+}
+@media screen and (min-width: 400px){
+    .serv{
+        width: 363px;
+       
+    }
+    
+}
+@media screen and (min-width: 800px ){
+    .serv{
+        width: 414px;
+        margin-left: 129px;
+       
+    }
+    
+}
+@media screen and (min-width: 990px ){
+    .serv{
+        width:275px;
+        margin-left: 0px;
+       
+    }
+    .se{
+        padding-left: 100px;
+    }
+    
+}
+.mission .mission-color{
+    background-color: #1b745e;
+    height: 500px;
+    width: 500px;
+    color: #fff;
+   
+}
+.mission .mission-img{
+    height: 500px;
+    width: 500px;
+}
+
